@@ -169,7 +169,8 @@ console.log(newsfeed[0])
     }
 }
 
-
+// git add . - add all
+// git commit -m "" - push dhe koment
 
 
 
