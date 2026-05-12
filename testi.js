@@ -6,16 +6,17 @@
 // Kështu kontrollojmë id % 2 !== 0.
 
 const people = [
-{ id: 1, name: "Arta" },
-{ id: 2, name: "Blerim" },
-{ id: 3, name: "Doni" },
-{ id: 4, name: "Elira" }
+  { id: 1, name: "Arta" },
+  { id: 2, name: "Blerim" },
+  { id: 3, name: "Doni" },
+  { id: 4, name: "Elira" }
 ];
 
-function returnOnlyOddPeople (people) {
-  return people.filter(people => people.id % 2 !== 0)
+function returnOnlyOddPeople(people) {
+  return people.filter(person => person.id % 2 !== 0);
 }
-console.log(returnOnlyOddPeople(people))
+
+console.log(returnOnlyOddPeople(people));
 
 
 // 2. maxNr(a, b)
