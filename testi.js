@@ -100,7 +100,15 @@ console.log(checkSpeed(75))
 // Truthy janë vlerat që JavaScript i konsideron të vërteta, 
 // si numrat pozitivë, stringjet jo bosh, etj
 
+let variabla = [0, null, undefined, 2, 3];
+let counti = 0;
 
+for (let i = 0; i < variabla.length; i++) {
+  if (variabla[i]) {
+    counti++;
+  }
+}
+console.log(counti)
 
 
 // 7. sum(limit)
