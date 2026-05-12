@@ -191,7 +191,7 @@ greetUser(getName);
 // alert(intro())
 
 function fullName (name, age) {
-    return 'My name is ${name} and I am ${age} years old'
+    return `My name is ${name} and I am ${age} years old`
 }
 console.log(fullName('Skender', 30))
 
@@ -1531,12 +1531,6 @@ console.log(newsfeed[0])
 
 // git add . - add all
 // git commit -m "" - push dhe koment
-
-
-
-
-
-
 
 
 
