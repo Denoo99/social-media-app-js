@@ -1580,6 +1580,3 @@ const square = (n) => n * n
 const isEven = (num) => num % 2 == 0
 
 const repeat = (str) => str + str
-
-
-
