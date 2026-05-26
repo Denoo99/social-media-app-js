@@ -1716,3 +1716,84 @@ butoni.addEventListener('click', changeContents)
 
 
 
+// // const buton2 = document.querySelector('#butoni');
+// // const paragrafi = document.querySelector('p');
+
+// // // let count = 0;
+// // // buton2.addEventListener('click', () => {
+// // //     count++
+// // //     paragrafi.textContent = count;
+// // // })
+
+
+// // buton2.textContent = 'Dont click'
+// // buton2.style.color = 'white'
+// // buton2.style.backgroundColor = 'green'
+
+
+// // const inputEl = document.querySelector('input')
+// // inputEl.addEventListener('input', (event) => {
+// //     let value = event.target.value
+// //     paragrafi.textContent = value
+// // })
+
+
+// // buton2.addEventListener('click', (input) =>{
+// //     buton2.textContent = inputEl.value;
+// // })
+
+
+// // 
+
+
+
+
+
+// // krijimi i ele. ne menyre dinamike
+
+// // createElement('Tagu i ele.');
+// // textContent -> vendos textin brenda
+// // appendChild -> e bashkangjit ne faqe, ne fund te body ose nje contejneri tjeter div/span etj.
+
+
+// const newElement = document.createElement('p')
+// newElement.textContent = 'paragrafi i ri'
+// document.body.appendChild(newElement)
+
+
+// const card = document.createElement('div')
+// card.className = 'container'
+// card.id = 'first-card'
+// card.innerHTML = '<p>This is a card</p>'
+// document.body.appendChild(card)
+
+
+// // span ka nje tekst, hyn brenda card
+
+// const spani = document.createElement('span')
+// spani.className = 'span'
+// spani.id = 'first-span'
+// spani.innerHTML = '<p><b>Kjo hyn brenda card<b></p>'
+// card.appendChild(spani)
+// //card.prepend(spani) // e qet perpara
+// //card.remove('p') //fshin paragrafet
+// spani.remove() // fshin spanin
+
+
+const addBtn = document.querySelector('#addBtn');
+const removeBtn = document.querySelector('#removeBtn');
+
+addBtn.addEventListener('click', () => {
+    const newEl = document.createElement('p');
+    newEl.textContent = 'Paragrafi nga butoni shto'
+    newEl.id = 'newElement';
+    document.querySelector('.btn-container'.appendChild())
+});
+
+removeBtn.addEventListener('click', () => {
+    document.querySelector('.newElement'.remove())
+})
+
+
+
+
